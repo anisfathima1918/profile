@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(243, 234, 218);
+    }
+    header{
+        background-color: black;
+        color:white;
+        text-align: center;
+        padding: 2rem 0;
+        position: relative;
+    }
+    .header.content h1{
+        font-size: 2.5rem 0;
+    }
+    .portfolio-picture{
+        width: 100px;
+        height: 100px;
+        border-radius: 75%;
+        object-fit: cover;
+        position: absolute;
+        top: 75px;
+        left: 75px;
+    }
+    nav{
+        background-color: black;
+        color: rgb(175, 88, 18);
+        text-align: center;
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+
+    }
+    nav ul li{
+        display: inline;
+        margin: 0 20px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .section-content{
+        background-color: aliceblue;
+        padding: 2rem;
+        margin: 1rem;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .download-button{
+        background-color: black;
+        color: aliceblue;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        border-radius: 20px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    button {
+        background-color: brown;
+        padding: 7px;
+        border-radius: 15px;
+        width: 200px;
+    }
+    button a{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .download-button:hover{
+        background-color: blue;
+    }
+    footer{
+        text-align: center;
+        padding: 1rem 0;
+        background-color: black;
+        color: aliceblue;
+    }
+    ul{
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header content">
+            <img src="Screenshot_2021-03-07-17-33-36.png"alt="your portfolio picture"class="portfolio-picture">
+            <h1>K.ANIS FATHIMA</h1>
+            <p>STUDENT OF COMPUETR SCIENCE</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>Hello Everyone! This is Anis and I am Computer Science Student </p>
+        </div>
+    </section>
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p>Kalaingar Karunanithi Arts College for Women(A)-CS </p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+                <ul>
+                    <li>python</li>
+                    <li>Java</li>
+                    <li>c,c++</li>
+                    <li>Data Structures</li>
+                    <li>SQL/PL</li>
+                </ul>
+        </div>
+    </section>
+    <section id="project">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="0">Project 1</a></li>
+                <li><a href="0">Project 2</a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="resume">
+        <center>
+        <div class="section-content">
+            <h2>Resume</h2>
+           <button> <a href="pdfresume.pdf" class="Download-button">Download CV</a></button>
+        </center>
+        </div>
+    </section>
+<footer>
+    <p>2023 Anis Fathima</p>
+</footer>
+    
+</body>
+</html>
